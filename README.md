@@ -1,2 +1,3 @@
 # evancloutier.github.io
-My personal website
+
+The eventual making of something different
