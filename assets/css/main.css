@@ -137,7 +137,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #a2a0a0;
 		}
 
 	strong, b {
@@ -271,7 +271,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ff7496;
+			border-color: #194D8D;
 		}
 
 	.select-wrapper {
@@ -514,7 +514,7 @@
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+						text-shadow: 1.25px 0px 0px #194D8D, -1.25px 0px 0px #194D8D, 0px 1.25px 0px #194D8D, 0px -1.25px 0px #194D8D;
 					}
 
 					ul.icons li a:before {
@@ -530,7 +530,7 @@
 					}
 
 					ul.icons li a:hover {
-						border-color: #ff7496;
+						border-color: #194D8D;
 					}
 
 			@media screen and (max-width: 480px) {
