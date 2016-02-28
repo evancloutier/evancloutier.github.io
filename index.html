@@ -4,17 +4,16 @@
 		<title>Evan Cloutier</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css"/>
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" type="text/css" href="assets/js/slick/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/js/slick/slick/slick-theme.css"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
 	</head>
 	<body class="is-loading">
 			<div id="wrapper">
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="images/headshot.png" alt="" /></span>
+							<span class="avatar"><img src="assets/images/headshot.png" alt=""/></span>
 							<h1>Evan Cloutier</h1>
 							<p>Student, Developer</p>
 						</header>
@@ -29,17 +28,18 @@
 					<footer id="footer">
 						<ul class="copyright">
 							<li>&copy; Evan Cloutier</li>
-							<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
 						</ul>
 					</footer>
 			</div>
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
 			<script>
 				if ('addEventListener' in window) {
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
+			<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+			<script type="text/javascript" src="assets/js/slick/slick/slick.min.js"></script>			
 			<script>
 				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
